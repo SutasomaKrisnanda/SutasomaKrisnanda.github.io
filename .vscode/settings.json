@@ -1,4 +1,13 @@
 {
     "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    "IDX.aI.enableCodebaseIndexing": true,
+    "files.useExperimentalFileWatcher": true,
+    "search.exclude": {
+      "**/node_modules": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+      "**/dist": true
+    },
+    "vite.base": "/SutasomaKrisnanda/"
 }
