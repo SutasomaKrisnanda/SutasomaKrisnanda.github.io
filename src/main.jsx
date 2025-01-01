@@ -6,7 +6,7 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/SutasomaKrisnanda.github.io">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/Hello" element={<div>Hello, Page Not Found</div>} />
